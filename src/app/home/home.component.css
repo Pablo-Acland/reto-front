@@ -1,0 +1,26 @@
+.e-product-card {
+  margin-top: 15px;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-top: 1px solid lightgray;
+}
+
+.desc-cont {
+  width: 100%;
+  height: 80px;
+}
+
+img.e-product-img {
+  height: 400px;
+  width: 400px;
+  
+}
+
+div.app-products-div {
+  padding: 13px;
+  margin-top: 57px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+

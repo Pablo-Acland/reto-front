@@ -1,0 +1,10 @@
+<div *ngIf="!hide; else divCart">no tengo nada</div>
+<ng-template #divCart>
+  <div class="modal">
+    <div class="modal-content">
+      <div class="title">Shopping Cart</div>
+      <p *ngFor="let art of list; let index">{{ index }} - {{ art }}</p>
+      <button>Buy Articles</button>
+    </div>
+  </div>
+</ng-template>
