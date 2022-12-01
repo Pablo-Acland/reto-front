@@ -1,6 +1,6 @@
 .modal{
     width: 100%;
-    height: calc(100%-60px);
+    height: calc(100vh - 60px);
     position: fixed;
     background-color: white !important;
     z-index: 99999;
@@ -13,6 +13,37 @@
 .modal-content{
     width: 400px;
     height: 80%;
+    font-size: 20px;
     border-radius: 4px;
+    background-color: rgb(46, 46, 129) ;
     border: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.list{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    flex-direction: column;
+    max-height: 80%;
+    overflow-y: scroll;
+    color: black;
+}
+
+.title{
+    width: 70%;
+    font-size: 40px;
+    color: rgb(115, 115, 119);
+}
+.buton{
+    background-color: rgb(27, 167, 27);
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
 }
